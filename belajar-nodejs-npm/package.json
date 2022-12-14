@@ -27,7 +27,8 @@
   "author": "Dimas-WA",
   "license": "ISC",
   "dependencies": {
-    "lodash": "4.17.21"
+    "lodash": "4.17.21",
+    "belajar-nodejs-npm-library-vandimz": "1.0.0"
   },
   "devDependencies": {
     "moment": "2.29.4"
