@@ -1,0 +1,29 @@
+{
+  "name": "belajar-nodejs-npm",
+  "version": "1.0.0",
+  "description": "Belajar NodeJS NPM",
+  "exports":{
+    "." : "./index.js",
+    "./write" : "./write.js"
+  },
+  "homepage": "https://programmerzamannow.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dimas-WA/PZN-NodeJS"
+  },
+  "scripts": {
+    "prestart": "echo 'before app start'",
+    "start": "node index.js",
+    "poststart": "echo 'after app start'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "programmerzamannow",
+    "pzn",
+    "nodejs",
+    "npm"
+  ],
+  "type": "module",
+  "author": "Dimas WA",
+  "license": "ISC"
+}
